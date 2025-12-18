@@ -7,7 +7,7 @@ fn main() {
 
 fn set_wallpaper() {
     let path_buf = rfd::FileDialog::new()
-        .add_filter("image", &["png", "jpeg"])
+        .add_filter("Image", &["png", "jpeg"])
         .pick_file()
         .unwrap();
 
