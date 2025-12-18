@@ -6,4 +6,5 @@ edition = "2024"
 [dependencies]
 wallpaper = "3.2.0"
 rfd = "0.16.0"
-
+serde_json = "1.0.145"
+dirs = "6.0.0"
